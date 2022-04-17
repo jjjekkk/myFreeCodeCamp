@@ -1,0 +1,8 @@
+<script>
+  function titleCase(str) {
+    let lowCaseStr = str.toLowerCase();
+let string = lowCaseStr.split(" ");
+  return string.map(n => n.replace(/./, m => m.toUpperCase())).join(' ');
+};
+console.log(titleCase("i'm a liTTle tea pot"));
+  </script>
