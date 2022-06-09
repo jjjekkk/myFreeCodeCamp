@@ -1,4 +1,4 @@
-function pairElement(str) {
+function airElement(str) {
   let pairArr = [];
 let searchPair = function (char){
   switch (char){
@@ -22,4 +22,4 @@ for (let i = 0; i<str.length; i++) {
 return pairArr
 }
 
-console.log(pairElement("ATCG"))
+console.log(airElement("ATCG"))
