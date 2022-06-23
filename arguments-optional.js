@@ -9,4 +9,4 @@ if (typeof(second) !== 'number')
    return first+second
 }
 
-console.log(addTogether(5))
+console.log(addTogether(6))
